@@ -1,2 +1,0 @@
-# CodingTest
-test1
