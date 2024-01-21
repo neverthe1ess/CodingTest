@@ -6,7 +6,6 @@ public class BaekJoon_9506 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-
         while(true){
             StringBuffer sb = new StringBuffer();
             int n = Integer.parseInt(br.readLine());
