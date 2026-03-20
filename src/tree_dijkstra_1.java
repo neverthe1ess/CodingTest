@@ -30,7 +30,7 @@ public class tree_dijkstra_1 {
         graph = new ArrayList[N + 1];
         dist = new int[N + 1];
         for (int i = 1; i <= N ; i++) {
-            graph[i] = new ArrayList<Node>();
+            graph[i] = new ArrayList<>();
         }
 
         for (int i = 0; i < M; i++) {
