@@ -2,7 +2,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.StringTokenizer;
 
@@ -20,7 +19,7 @@ public class BaekJoon_15683 {
     private static int[] dRows = {1, 0, -1, 0};
     private static int[] dCols = {0, 1, 0, -1};
     private static List<CCTV> cctvList;
-    private static List<int[][]>[] directionList;
+    private static int[][][] directions;
     private static int min = Integer.MAX_VALUE;
 
     public static void main(String[] args) throws IOException {
@@ -29,16 +28,13 @@ public class BaekJoon_15683 {
         N = Integer.parseInt(st.nextToken());
         M = Integer.parseInt(st.nextToken());
         int[][] map = new int[N][M];
-        directionList = new List[6];
+        directions = new int[6][][];
         cctvList = new ArrayList<>();
-        for (int i = 0; i <= 5 ; i++) {
-            directionList[i] = new ArrayList<>();
-        }
-        directionList[1].add(new int[][]{{0}, {1}, {2}, {3}});
-        directionList[2].add(new int[][] {{0, 2}, {1, 3}});
-        directionList[3].add(new int[][] {{0, 1}, {1, 2}, {2, 3}, {3, 0}});
-        directionList[4].add(new int[][] {{0, 1, 3}, {0, 1, 2}, {1, 2, 3}, {2, 3, 0}});
-        directionList[5].add(new int[][] {{0, 1, 2, 3}});
+        directions[1] = new int[][]{{0}, {1}, {2}, {3}};
+        directions[2] = new int[][]{{0, 2}, {1, 3}};
+        directions[3] = new int[][]{{0, 1}, {1, 2}, {2, 3}, {3, 0}};
+        directions[4] = new int[][]{{0, 1, 3}, {0, 1, 2}, {1, 2, 3}, {2, 3, 0}};
+        directions[5] = new int[][] {{0, 1, 2, 3}};
 
 
         for (int i = 0; i < N; i++) {
@@ -66,15 +62,13 @@ public class BaekJoon_15683 {
             return;
         }
         CCTV cctv = cctvList.get(depth);
-        for (int[][] direction : directionList[cctv.type]) {
-            for (int[] dir : direction) {
+        for (int[] dir : directions[cctv.type]) {
                 int[][] newMap = new int[N][M];
                 for (int i = 0; i < map.length; i++) {
                     System.arraycopy(map[i], 0, newMap[i], 0, M);
                 }
                 mark(cctv.x, cctv.y, newMap, dir);
                 dfs(depth + 1,  newMap);
-            }
         }
     }
 
