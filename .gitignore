@@ -32,3 +32,10 @@ bin/
 ### JetBrains ###
 .idea
 baekJoon_Playgroud.iml
+
+### User Custom Ignores ###
+# Antigravity/OMC IDE 상태 폴더
+.omc/
+
+# Java 컴파일된 바이트코드
+*.class
