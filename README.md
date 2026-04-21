@@ -4,12 +4,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0088-merge-sorted-array](https://github.com/neverthe1ess/CodingTest/tree/master/0088-merge-sorted-array) |
 | [0128-longest-consecutive-sequence](https://github.com/neverthe1ess/CodingTest/tree/master/0128-longest-consecutive-sequence) |
 | [0149-max-points-on-a-line](https://github.com/neverthe1ess/CodingTest/tree/master/0149-max-points-on-a-line) |
 | [0274-h-index](https://github.com/neverthe1ess/CodingTest/tree/master/0274-h-index) |
 ## Sorting
 |  |
 | ------- |
+| [0088-merge-sorted-array](https://github.com/neverthe1ess/CodingTest/tree/master/0088-merge-sorted-array) |
 | [0274-h-index](https://github.com/neverthe1ess/CodingTest/tree/master/0274-h-index) |
 ## Counting Sort
 |  |
@@ -33,4 +35,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/neverthe1ess/CodingTest/tree/master/0128-longest-consecutive-sequence) |
+## Two Pointers
+|  |
+| ------- |
+| [0088-merge-sorted-array](https://github.com/neverthe1ess/CodingTest/tree/master/0088-merge-sorted-array) |
 <!---LeetCode Topics End-->
