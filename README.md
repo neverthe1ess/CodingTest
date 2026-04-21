@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/neverthe1ess/CodingTest/tree/master/0128-longest-consecutive-sequence) |
 | [0149-max-points-on-a-line](https://github.com/neverthe1ess/CodingTest/tree/master/0149-max-points-on-a-line) |
 | [0274-h-index](https://github.com/neverthe1ess/CodingTest/tree/master/0274-h-index) |
 ## Sorting
@@ -22,9 +23,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/neverthe1ess/CodingTest/tree/master/0128-longest-consecutive-sequence) |
 | [0149-max-points-on-a-line](https://github.com/neverthe1ess/CodingTest/tree/master/0149-max-points-on-a-line) |
 ## Geometry
 |  |
 | ------- |
 | [0149-max-points-on-a-line](https://github.com/neverthe1ess/CodingTest/tree/master/0149-max-points-on-a-line) |
+## Union-Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/neverthe1ess/CodingTest/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
